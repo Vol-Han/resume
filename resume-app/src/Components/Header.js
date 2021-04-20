@@ -32,8 +32,8 @@ export default class Header extends React.Component {
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="mr-auto">
                                 <Nav.Link href="/resume">Home</Nav.Link>
-                                <Nav.Link href="/about">About</Nav.Link>
-                                <Nav.Link href="/skills">Skills</Nav.Link>
+                                <Nav.Link href="/resume/about">About</Nav.Link>
+                                <Nav.Link href="/resume/skills">Skills</Nav.Link>
                             </Nav>
                             <Navbar.Collapse className="justify-content-end">
                                 <Navbar.Text>
@@ -73,8 +73,8 @@ export default class Header extends React.Component {
                 <Router>
                     <Switch>
                         <Route exact path="/resume" component={Home} />
-                        <Route exact path="/about" component={About} />
-                        <Route exact path="/skills" component={Skills} />
+                        <Route exact path="/resume/about" component={About} />
+                        <Route exact path="/resume/skills" component={Skills} />
                     </Switch>
                 </Router>
             </>
