@@ -31,7 +31,7 @@ export default class Header extends React.Component {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav"/> 
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="mr-auto">
-                                <Nav.Link href="/">Home</Nav.Link>
+                                <Nav.Link href="/resume">Home</Nav.Link>
                                 <Nav.Link href="/about">About</Nav.Link>
                                 <Nav.Link href="/skills">Skills</Nav.Link>
                             </Nav>
@@ -72,7 +72,7 @@ export default class Header extends React.Component {
                 </Navbar>
                 <Router>
                     <Switch>
-                        <Route exact path="/" component={Home} />
+                        <Route exact path="/resume" component={Home} />
                         <Route exact path="/about" component={About} />
                         <Route exact path="/skills" component={Skills} />
                     </Switch>
