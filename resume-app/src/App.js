@@ -10,20 +10,20 @@ import {
 } from 'react-bootstrap';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './Components/Home';
-import About from './Pages/About';
+import About from './Components/About';
 import Skills from './Components/Skills';
 import MyLogo from './Images/logo.png';
 
 function App() {
   return (
     <>
-    <Router>
-    <Navbar className="navbar" 
+      <Router>
+        <Navbar className="navbar" 
                         collapseOnSelect expand="lg" 
                         data-aos="fade-down"
                         data-aos-duration="1000"> 
                     <Container>
-                        <Navbar.Brand href="/">
+                        <Navbar.Brand href="/resume">
                             <img
                                 src={MyLogo}
                                 height="40"
@@ -77,10 +77,10 @@ function App() {
                     <Route exact path="/resume">
                       <Home/>
                     </Route>
-                    <Route path="/resume/about">
+                    <Route exact path="/resume/about">
                       <About/>
                     </Route>
-                    <Route path="/resume/skills">
+                    <Route exact path="/resume/skills">
                       <Skills/>
                     </Route>
                   </Switch>
