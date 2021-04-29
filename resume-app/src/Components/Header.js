@@ -31,9 +31,9 @@ export default class Header extends React.Component {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav"/> 
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="mr-auto">
-                                <Nav.Link href="/resume">Home</Nav.Link>
-                                <Nav.Link href="/resume/about">About</Nav.Link>
-                                <Nav.Link href="/resume/skills">Skills</Nav.Link>
+                                <Nav.Link to="/resume">Home</Nav.Link>
+                                <Nav.Link to="/resume/about">About</Nav.Link>
+                                <Nav.Link to="/resume/skills">Skills</Nav.Link>
                             </Nav>
                             <Navbar.Collapse className="justify-content-end">
                                 <Navbar.Text>
