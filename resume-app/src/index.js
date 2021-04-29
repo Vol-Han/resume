@@ -4,20 +4,14 @@ import { HashRouter } from "react-router-dom";
 import './App.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from './Components/Home';
-import About from './Components/About';
-import Skills from './Components/Skills';
+import { BrowserRouter } from "react-router-dom";
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
+    <BrowserRouter>
       <App />
-      <Route exact path="/" component={Home} />
-<Route exact path="/about" component={About}/>
-<Route exact path="/skills" component={Skills}/>
-    </HashRouter>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
