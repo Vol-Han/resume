@@ -10,7 +10,7 @@ import {
 } from 'react-bootstrap';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './Components/Home';
-import About from './Components/About';
+import About from './Pages/About';
 import Skills from './Components/Skills';
 import MyLogo from './Images/logo.png';
 
@@ -77,10 +77,10 @@ function App() {
                     <Route exact path="/resume">
                       <Home/>
                     </Route>
-                    <Route exact path="/resume/about">
+                    <Route path="/resume/about">
                       <About/>
                     </Route>
-                    <Route exact path="/resume/skills">
+                    <Route path="/resume/skills">
                       <Skills/>
                     </Route>
                   </Switch>
