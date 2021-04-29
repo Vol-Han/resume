@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './Components/Header';
 import Footer from './Components/Footer';
 import { 
   Navbar,
@@ -74,14 +73,18 @@ function App() {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
-                
-                    <Switch>
-                        <Route exact path="/resume" component={Home} />
-                        <Route exact path="/resume/about" component={About} />
-                        <Route exact path="/resume/skills" component={Skills} />
-                    </Switch>
+                  <Switch>
+                    <Route exact path="/resume">
+                      <Home/>
+                    </Route>
+                    <Route exact path="/resume/about">
+                      <About/>
+                    </Route>
+                    <Route exact path="/resume/skills">
+                      <Skills/>
+                    </Route>
+                  </Switch>
                 </Router>
-      
       <Footer />
     </>
   );
