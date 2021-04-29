@@ -181,7 +181,7 @@ html, body {
 }
 
 .sectionSkills {
-  min-height: 90vh;
+  height: 75vh;
   background-color:rgba(0, 0, 0, 0.3);
 }
 

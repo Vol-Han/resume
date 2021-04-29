@@ -35,8 +35,8 @@ function App() {
                         <Navbar.Collapse id="responsive-navbar-nav">
                           <Nav className="mr-auto" defaultActiveKey="home">
                             <Nav.Link exact as={NavLink} eventKey="home" to="/resume">Home</Nav.Link>
-                            <Nav.Link exact as={NavLink} eventKey="about" to="/about">About</Nav.Link>
-                            <Nav.Link exact as={NavLink} eventKey="skills" to="/skills">Skills</Nav.Link>
+                            <Nav.Link exact as={NavLink} eventKey="about" to="/resume/about">About</Nav.Link>
+                            <Nav.Link exact as={NavLink} eventKey="skills" to="/resume/skills">Skills</Nav.Link>
                           </Nav>
                             <Navbar.Collapse className="justify-content-end">
                                 <Navbar.Text>
@@ -77,10 +77,10 @@ function App() {
                     <Route exact path="/resume">
                       <Home/>
                     </Route>
-                    <Route exact path="/about">
+                    <Route exact path="/resume/about">
                       <About/>
                     </Route>
-                    <Route exact path="/skills">
+                    <Route exact path="/resume/skills">
                       <Skills/>
                     </Route>
                   </Switch>
