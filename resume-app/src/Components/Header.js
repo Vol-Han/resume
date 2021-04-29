@@ -32,7 +32,7 @@ export default class Header extends React.Component {
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="mr-auto">
                                 <Nav.Link href="/resume">Home</Nav.Link>
-                                <Nav.Link href="/about">About</Nav.Link>
+                                <Nav.Link href="/resume/about">About</Nav.Link>
                                 <Nav.Link href="/skills">Skills</Nav.Link>
                             </Nav>
                             <Navbar.Collapse className="justify-content-end">
