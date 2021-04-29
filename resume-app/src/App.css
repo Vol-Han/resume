@@ -64,7 +64,7 @@ html, body {
   justify-content: center;
   align-items: center;
   text-align: center; 
-  min-height: 90vh;
+  height: 85vh;
   background: url(../src/Images/earth.gif);
   background-repeat: no-repeat;
   background-position: center;
@@ -78,7 +78,7 @@ html, body {
   justify-content: center;
   align-items: center;
   text-align: center; 
-  font-size: 9vw; 
+  font-size: 8vw; 
   font-weight: 600;
   color: white;
   transform: perspective(1000px) rotateY(0deg) rotateX(0deg) translateY(0px);
@@ -103,7 +103,7 @@ html, body {
   justify-content: center;
   align-items: flex-start;
   padding: 16px;
-  min-height: 90vh;
+  height: 85vh;
 }
 
 .sectionAbout h2 {
@@ -181,7 +181,7 @@ html, body {
 }
 
 .sectionSkills {
-  height: 75vh;
+  height: 85vh;
   background-color:rgba(0, 0, 0, 0.3);
 }
 

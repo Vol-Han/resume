@@ -33,7 +33,7 @@ function App() {
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav"/> 
                         <Navbar.Collapse id="responsive-navbar-nav">
-                          <Nav className="mr-auto" defaultActiveKey="home">
+                          <Nav className="mr-auto">
                             <Nav.Link exact as={NavLink} eventKey="home" to="/resume">Home</Nav.Link>
                             <Nav.Link exact as={NavLink} eventKey="about" to="/resume/about">About</Nav.Link>
                             <Nav.Link exact as={NavLink} eventKey="skills" to="/resume/skills">Skills</Nav.Link>
@@ -65,10 +65,11 @@ function App() {
                                         </svg>
                                     </a>
                                 </Navbar.Text>
-                                <Button variant="info" 
+                                {/* <Button variant="info" 
                                         className="buttonProjectExamples" 
-                                        href="/resume">Resume
-                                </Button>
+                                        href="/resume">
+                                        Resume
+                                </Button> */}
                             </Navbar.Collapse>
                         </Navbar.Collapse>
                     </Container>
