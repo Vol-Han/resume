@@ -72,9 +72,9 @@ export default class Header extends React.Component {
                 </Navbar>
                 <Router>
                     <Switch>
-                        <Route exact path="/" component={Home} />
-                        <Route exact path="/about" component={About} />
-                        <Route exact path="/skills" component={Skills} />
+                        <Route exact path="/resume" component={Home} />
+                        <Route exact path="/resume/about" component={About} />
+                        <Route exact path="/resume/skills" component={Skills} />
                     </Switch>
                 </Router>
             </>
