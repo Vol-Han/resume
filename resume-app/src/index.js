@@ -15,8 +15,8 @@ ReactDOM.render(
     <HashRouter>
       <App />
       <Route exact path="/" component={Home} />
-<Route path="/about" component={About}/>
-<Route path="/skills" component={Skills}/>
+<Route exact path="/about" component={About}/>
+<Route exact path="/skills" component={Skills}/>
     </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
