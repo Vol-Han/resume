@@ -8,7 +8,7 @@ import {
   Container,
   Button
 } from 'react-bootstrap';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 import Home from './Components/Home';
 import About from './Components/About';
 import Skills from './Components/Skills';
@@ -33,11 +33,11 @@ function App() {
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav"/> 
                         <Navbar.Collapse id="responsive-navbar-nav">
-                            <Nav className="mr-auto">
-                                <Nav.Link href="/resume">Home</Nav.Link>
-                                <Nav.Link href="/resume/about">About</Nav.Link>
-                                <Nav.Link href="/resume/skills">Skills</Nav.Link>
-                            </Nav>
+                          <Nav className="mr-auto" defaultActiveKey="home">
+                            <Nav.Link exact as={NavLink} eventKey="home" to="/resume">Home</Nav.Link>
+                            <Nav.Link exact as={NavLink} eventKey="about" to="/about">About</Nav.Link>
+                            <Nav.Link exact as={NavLink} eventKey="skills" to="/skills">Skills</Nav.Link>
+                          </Nav>
                             <Navbar.Collapse className="justify-content-end">
                                 <Navbar.Text>
                                     <a className="linkHeader" href="tel:+48793052283" 
@@ -77,10 +77,10 @@ function App() {
                     <Route exact path="/resume">
                       <Home/>
                     </Route>
-                    <Route exact path="/resume/about">
+                    <Route exact path="/about">
                       <About/>
                     </Route>
-                    <Route exact path="/resume/skills">
+                    <Route exact path="/skills">
                       <Skills/>
                     </Route>
                   </Switch>
