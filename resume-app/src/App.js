@@ -13,6 +13,7 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Skills from './Components/Skills';
 import MyLogo from './Images/logo.png';
+import CvPdf from './Pdf/cv.pdf';
 
 function App() {
   return (
@@ -66,11 +67,10 @@ function App() {
                                     </a>
                                 </Navbar.Text>
                                 <Button variant="info" 
-                                        className="buttonProjectExamples" 
-                                        type="submit" 
-                                        onclick="window.open('./vol-han_cv.pdf')" 
-                                        download>
-                                        Resume
+                                        className="buttonProjectExamples"
+                                        href={CvPdf} 
+                                        target="_blank">
+                                        Resume 
                                 </Button>
                             </Navbar.Collapse>
                         </Navbar.Collapse>
