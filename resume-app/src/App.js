@@ -65,11 +65,13 @@ function App() {
                                         </svg>
                                     </a>
                                 </Navbar.Text>
-                                {/* <Button variant="info" 
+                                <Button variant="info" 
                                         className="buttonProjectExamples" 
-                                        href="/resume">
+                                        type="submit" 
+                                        onclick="window.open('./vol-han_cv.pdf')" 
+                                        download>
                                         Resume
-                                </Button> */}
+                                </Button>
                             </Navbar.Collapse>
                         </Navbar.Collapse>
                     </Container>
