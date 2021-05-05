@@ -78,13 +78,13 @@ function App() {
                 </Navbar>
                   <Switch>
                     <Route exact path="/resume">
-                      <Home/>
+                      <Home />
                     </Route>
                     <Route exact path="/resume/about">
-                      <About/>
+                      <About />
                     </Route>
                     <Route exact path="/resume/skills">
-                      <Skills/>
+                      <Skills />
                     </Route>
                   </Switch>
                 </Router>
