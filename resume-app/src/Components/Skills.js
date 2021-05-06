@@ -17,20 +17,19 @@ export default class Skills extends React.Component {
                                 data-aos="fade-up"
                                 data-aos-duration="1200"
                                 data-aos-easing="ease-in-sine">
-                            <h3>All time working and expand my knowledge with:</h3>
+                            <h3>Permanently expand my knowledge with:</h3>
                             <div className="sibling-fade">
-                                <a href="#">HTML</a>
-                                <a href="#">CSS</a>
-                                <a href="#">JavaScript</a>
-                                <a href="#">React</a>
-                                <a href="#">NodeJS</a>
-                                <a href="#">Git</a>
-                                <a href="#">GitHub</a>
-                                <a href="#">Bootstrap</a>
-                                <a href="#">Visual Studio Code</a>
-                                <a href="#">Adobe Photoshop</a>
-                                <a href="#">GIMP</a>
-                                <a href="#">Linux</a>
+                                <p>HTML</p>
+                                <p>CSS</p>
+                                <p>JavaScript</p>
+                                <p>React</p>
+                                <p>Git</p>
+                                <p>GitHub</p>
+                                <p>Bootstrap</p>
+                                <p>Visual Studio Code</p>
+                                <p>Adobe Photoshop</p>
+                                <p>GIMP</p>
+                                <p>Linux</p>
                             </div>
                         </div>
                         <div className="divTechnologies" 
@@ -39,19 +38,20 @@ export default class Skills extends React.Component {
                                 data-aos-easing="ease-in-sine">
                             <h3>I've been experimenting with recently:</h3>
                                 <div className="sibling-fade">
-                                    <a href="#">HTTP</a>
-                                    <a href="#">JSON</a>
-                                    <a href="#">REST API</a>
-                                    <a href="#">Redux</a>
-                                    <a href="#">React Context</a>
-                                    <a href="#">React Hooks</a>
-                                    <a href="#">Firebase</a>
-                                    <a href="#">Webpack</a>
-                                    <a href="#">Cypress</a>
-                                    <a href="#">Jest</a>
-                                    <a href="#">Material-UI</a>
-                                    <a href="#">jQuery</a>
-                                    <a href="#">Jira</a>
+                                    <p>HTTP</p>
+                                    <p>NodeJS</p>
+                                    <p>JSON</p>
+                                    <p>REST API</p>
+                                    <p>Redux</p>
+                                    {/* <p>React Context</p>
+                                    <p>React Hooks</p> */}
+                                    <p>Firebase</p>
+                                    <p>Webpack</p>
+                                    <p>Cypress</p>
+                                    <p>Jest</p>
+                                    <p>Material-UI</p>
+                                    <p>jQuery</p>
+                                    <p>Jira</p>
                                 </div>
                             </div>
                             <div className="divTechnologies" 
@@ -60,10 +60,10 @@ export default class Skills extends React.Component {
                                 data-aos-easing="ease-in-sine">
                             <h3>I've experimented and created projects for a long time with:</h3>
                             <div className="sibling-fade">
-                                <a href="#">PHP</a>
-                                <a href="#">MySQL</a>
-                                <a href="#">CMS WordPress</a>
-                                <a href="#">CMS OpenCart</a>
+                                <p>PHP</p>
+                                <p>MySQL</p>
+                                <p>CMS WordPress</p>
+                                <p>CMS OpenCart</p>
                             </div>
                         </div>
                 </section>

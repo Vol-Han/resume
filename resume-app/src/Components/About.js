@@ -59,7 +59,7 @@ export default class About extends React.Component {
             <Container id="about" className="sectionAbout">
                 <Row>
                     <Col md="9">
-                        <h3 data-aos="fade-up" data-aos-duration="1000">Hello! My name is</h3> 
+                        <h3 data-aos="fade-up" data-aos-duration="1000">Hi! My name is</h3> 
                         <h2 data-aos="fade-up" data-aos-duration="1000">Volodymyr Hannibal.</h2>
                         <h3 data-aos="fade-up" data-aos-duration="1000">I'm looking for a job Junior Front-end Developer.</h3>
                         <div data-aos="fade-up" data-aos-duration="1000"> 
