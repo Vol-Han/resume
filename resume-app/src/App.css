@@ -5,7 +5,7 @@
 }
 
 html, body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif !important;
   letter-spacing: 1.5px;
   scroll-behavior: smooth;
   background-color: #f3f3f3;
@@ -28,6 +28,15 @@ html, body {
 
 .navbar-light .navbar-nav a.nav-link {
   color: #32394f !important;
+}
+
+.navbar-toggler {
+  border: 2px solid transparent !important;
+}
+
+.navbar-light .navbar-toggler {
+  color: #32394f !important;
+  border-color: #17a2b8 !important;
 }
 
 .navbar-brand img {
@@ -59,7 +68,7 @@ html, body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  animation: animatedBackground 3s ease-in-out;
+  animation: animatedBackground 1s ease-in-out;
   box-shadow: inset 0 0 30px 30px rgba(0,0,0,.4);
 }
 
@@ -68,13 +77,13 @@ html, body {
   justify-content: center;
   align-items: center;
   text-align: center; 
-  height: 85vh;
   background: url(../src/Images/earth.gif);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 290px auto;
   animation: animatedImgEarth 3s ease-in-out;
   overflow: hidden;
+  min-height: 84vh;
 }
 
 .homeText {
@@ -88,7 +97,7 @@ html, body {
   transform: perspective(1000px) rotateY(0deg) rotateX(0deg) translateY(0px);
   text-shadow: 1px 5px 6px rgba(194, 194, 194, 0.4),
                 1px 10px 10px rgba(194, 194, 194, 0.2);
-  animation: animatedTextOnHome 3.5s ease-in-out;
+  animation: animatedTextOnHome 3s ease-in-out;
 }
 
 /* Section about */
@@ -98,7 +107,7 @@ html, body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  animation: animatedBackground 2s ease-in-out;
+  animation: animatedBackground 1s ease-in-out;
   box-shadow: inset 0 0 30px 10px rgba(0,0,0,.6);
 }
 
@@ -107,20 +116,18 @@ html, body {
   justify-content: center;
   align-items: flex-start;
   padding: 16px;
-  min-height: 85vh;
+  min-height: 84vh;
 }
 
 .sectionAbout h2 {
   font-size: 5vh; 
   font-weight: 600;
-  color: #32394f;
-  /* color: white; */
-  text-shadow: 0px 2px 2px rgba(255,255,255,.8);
+  color: white;
+  text-shadow: 0px 2px 2px rgba(0,0,0,.5);
 }
 
 .sectionAbout h4 {
   color: #32394f;
-  /* color: white; */
   text-shadow: 0px 1px 1px rgba(255,255,255,.8);
 }
 
@@ -184,18 +191,18 @@ html, body {
   background-repeat: no-repeat;
   box-shadow: inset 0 0 30px 10px rgba(0,0,0,.6);
   padding: 16px;
-  animation: animatedBackground 2s ease-in-out;
+  animation: animatedBackground 1s ease-in-out;
 }
 
 .sectionSkills {
-  min-height: 81vh;
+  min-height: 80vh;
 }
 
 #skills h1 {
   text-align: center;
   font-weight: 600;
   color: white;
-  text-shadow: 0px 2px 2px #333;
+  text-shadow: 0px 2px 2px #32394f;
 }
 #skills h3 {
   display: flex;
@@ -203,12 +210,12 @@ html, body {
   align-items: center;
   text-align: center;
   color: white;
-  text-shadow: 0px 2px 2px #333;
+  text-shadow: 0px 2px 2px #32394f;
 }
 
-.divTechnologies {
-  margin: 8px 0;
-}
+/* .divTechnologies {
+  background: #000;
+} */
 
 /* Sibling */
 
@@ -223,7 +230,7 @@ html, body {
   flex: auto;
   margin: 0.3em;
   text-align: center;
-  color: #17a2b8;
+  color: #32394f;
   font-size: 1.5em;
   text-decoration: none;
 }  
@@ -233,7 +240,7 @@ html, body {
 .sibling-fade { visibility: hidden; }
 /* Prevents :hover from triggering in the gaps between items */
 
-.sibling-fade > * { visibility: visible; border: 1px solid #17a2b8;}
+.sibling-fade > * { visibility: visible; border: 2px solid #17a2b8;}
 /* Brings the child items back in, even though the parent is `hidden` */
 
 .sibling-fade > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
@@ -242,7 +249,7 @@ html, body {
 .sibling-fade:hover > * { opacity: 0.7; transform: scale(0.9); cursor: pointer;}
 /* Fade out all items when the parent is hovered */
 
-.sibling-fade > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; color: #17a2b8;}
+.sibling-fade > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; color: #17a2b8; box-shadow: 0px 2px 2px rgba(0,0,0,.5);}
 /* Fade in the currently hovered item */
 
 
