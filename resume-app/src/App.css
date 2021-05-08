@@ -8,11 +8,16 @@ html, body {
   font-family: 'Inter', sans-serif !important;
   letter-spacing: 1.5px;
   scroll-behavior: smooth;
-  background-color: #f3f3f3;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden; */
+  /* background-color: #f3f3f3; */
 }
 
 #root {
   background-color: #f3f3f3;
+
 }
 
 /* Header */
