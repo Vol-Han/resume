@@ -7,8 +7,8 @@ import {
     Button,
     Modal 
 } from 'react-bootstrap';
-import MyPhoto from '../Images/my-photo.png';
-import GitHubLogo from '../Images/github.svg';
+import MyPhoto from '../images/my-photo.png';
+import GitHubLogo from '../images/github.svg';
 
 export default class About extends React.Component {
     state = {
