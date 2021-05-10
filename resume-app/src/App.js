@@ -8,16 +8,16 @@ import particlesConfig from './config/particlesConfig';
 
 class App extends React.Component {
   render() {
-  return (
-    <div className="App" style={{ position: 'relative', overflow: "hidden" }}>
-      <div style={{ position: 'absolute'}}>
-        <Particles height="100vh" width="100vw" params={particlesConfig} />
+    return (
+      <div className="App" style={{ position: 'relative', overflow: "hidden" }}>
+        <div style={{ position: 'absolute'}}>
+          <Particles height="100vh" width="100vw" params={particlesConfig} />
+        </div>
+        <Header /> 
+        <Footer />
       </div>
-      <Header /> 
-      <Footer />
-    </div>
-  );
-}
+    );
+  }
 }
 
 export default App;

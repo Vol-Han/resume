@@ -69,6 +69,7 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
   box-shadow: inset 0 0 30px 30px rgba(0,0,0,.4);
+  animation: animatedBackground .5s ease-in-out;
   z-index: 3;
 }
 
@@ -108,6 +109,7 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
   box-shadow: inset 0 0 30px 10px rgba(0,0,0,.6);
+  animation: animatedBackground .5s ease-in-out;
 }
 
 .sectionAbout {
@@ -190,6 +192,7 @@ html, body {
   background-repeat: no-repeat;
   box-shadow: inset 0 0 30px 10px rgba(0,0,0,.6);
   padding: 16px;
+  animation: animatedBackground .5s ease-in-out;
 }
 
 .sectionSkills {
@@ -250,6 +253,44 @@ html, body {
 
 
 /* CSS Animations */
+
+/* Animated Background */
+
+@keyframes animatedBackground {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes animatedBackground {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes animatedBackground {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes animatedBackground {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 /* Animated logo */
 
