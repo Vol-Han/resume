@@ -13,7 +13,11 @@ html, body {
 
 #root {
   background-color: #f3f3f3;
+}
 
+.app {
+  height: 100vh;
+  width: 100wv;
 }
 
 /* Header */
@@ -32,6 +36,10 @@ html, body {
 
 .navbar-toggler {
   border: 2px solid transparent !important;
+}
+
+.navbar-collapse {
+  text-align: center;
 }
 
 .navbar-light .navbar-toggler {
@@ -99,6 +107,12 @@ html, body {
   text-shadow: 1px 5px 6px rgba(194, 194, 194, 0.4),
                 1px 10px 10px rgba(194, 194, 194, 0.2);
   animation: animatedTextOnHome 3s ease-in-out;
+}
+
+@media(max-width:414px) {
+  h1.homeText{
+    font-size: 11vw;  
+   }
 }
 
 /* Section about */
