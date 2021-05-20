@@ -38,10 +38,6 @@ html, body {
   border: 2px solid transparent !important;
 }
 
-.navbar-collapse {
-  text-align: center;
-}
-
 .navbar-light .navbar-toggler {
   color: #32394f !important;
   border-color: #17a2b8 !important;

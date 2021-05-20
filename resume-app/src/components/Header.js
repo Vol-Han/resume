@@ -10,7 +10,7 @@ import Home from './Home';
 import About from './About';
 import Skills from './Skills';
 import MyLogo from '../images/logo.png';
-import CvPdf from '../pdf/cv.pdf';
+import CvPdf from '../pdf/cv_vol-han.pdf';
 
 export default class Header extends React.Component {
     render() {
