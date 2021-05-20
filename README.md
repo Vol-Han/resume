@@ -1,2 +1,3 @@
+Wellcome
 # resume v.1
-React + Bootsrap
+React + Bootstrap
