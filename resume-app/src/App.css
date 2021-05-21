@@ -29,11 +29,6 @@ html, body {
 
 .navbar-light .navbar-nav a.nav-link {
   color: #32394f !important;
-  border-radius: .25rem !important;
-  border: 1px solid rgba(255,255,255,.5) !important;
-  box-shadow: 0px 3px 3px #999 !important;
-  padding: 8px !important;
-  margin: 0 8px !important;
 }
 
 .navbar-collapse {
@@ -45,7 +40,7 @@ html, body {
 }
 
 .navbar-light .navbar-toggler {
-  color: #32394f !important;
+  color: #17a2b8 !important;
   border-color: #17a2b8 !important;
 }
 
@@ -72,13 +67,13 @@ html, body {
 
 /* Footer */
 
-.containerFooter {
+.footer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.containerFooter a {
+.footer a {
   padding: 8px;
   margin: 8px;
   border-radius: .25rem;
@@ -99,7 +94,7 @@ html, body {
   height: 22px;
 }
 
-/* Section Home */
+/* Home */
 
 #home {
   background-image: url(../src/images/bg-home.jpg);
@@ -140,12 +135,12 @@ html, body {
 }
 
 @media(max-width:414px) {
-  h1.homeText{
+  h1.homeText {
     font-size: 11vw;  
    }
 }
 
-/* Section about */
+/* About */
 
 #about {
   background-image: url(../src/images/bg-about.png);
@@ -226,11 +221,10 @@ html, body {
   margin-right: 8px;
 }
 
-/* Section Skills */
+/* Skills */
 
 #skills {
   background-image: url(../src/images/bg-skills.jpg);
-  background-color: #f3f3f3;
   background-size: cover;
   background-position: fixed;
   background-repeat: no-repeat;
@@ -257,6 +251,11 @@ html, body {
   text-align: center;
   color: white;
   text-shadow: 0px 2px 2px #32394f;
+}
+
+.divTechnologies h3 {
+  background: rgba(0,0,0,0.4);
+  border-radius: .25rem;
 }
 
 /* Sibling */
