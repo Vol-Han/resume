@@ -64,12 +64,14 @@ export default class Header extends React.Component {
                                         </svg>
                                     </a>
                                 </Navbar.Text>
-                                <Button variant="info" 
-                                        className="buttonProjectExamples"
-                                        href={CvPdf} 
-                                        target="_blank"
-                                        title="Download CV">
-                                        Resume 
+                                <Button 
+                                  variant="info" 
+                                  className="buttonProjectExamples"
+                                  href={CvPdf} 
+                                  target="_blank"
+                                  title="Download CV"
+                                >
+                                  Resume 
                                 </Button>
                             </Navbar.Collapse>
                         </Navbar.Collapse>

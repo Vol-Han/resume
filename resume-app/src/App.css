@@ -124,7 +124,7 @@ html, body {
   justify-content: center;
   align-items: center;
   text-align: center; 
-  font-size: 8vw; 
+  font-size: 6vw; 
   font-weight: 600;
   color: white;
   transform: perspective(1000px) rotateY(0deg) rotateX(0deg) translateY(0px);
