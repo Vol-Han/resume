@@ -1,7 +1,4 @@
 import React from 'react';
-// import { 
-//     Container 
-// } from 'react-bootstrap';
 import GitHubLogo from '../images/github.svg';
 import LinkedInLogo from '../images/linkedin.svg';
 

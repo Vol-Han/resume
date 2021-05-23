@@ -11,6 +11,9 @@ import About from './About';
 import Skills from './Skills';
 import MyLogo from '../images/logo.png';
 import CvPdf from '../pdf/cv_vol-han.pdf';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 export default class Header extends React.Component {
     render() {
