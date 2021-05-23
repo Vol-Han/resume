@@ -67,7 +67,8 @@ export default class Header extends React.Component {
                                 <Button variant="info" 
                                         className="buttonProjectExamples"
                                         href={CvPdf} 
-                                        target="_blank">
+                                        target="_blank"
+                                        title="Download CV">
                                         Resume 
                                 </Button>
                             </Navbar.Collapse>

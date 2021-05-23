@@ -116,8 +116,7 @@ html, body {
   background-position: center;
   background-size: 290px auto;
   animation: animateImgEarth 3s ease-in-out;
-  overflow: hidden;
-  min-height: 84vh;
+  height: 84vh;
 }
 
 .homeText {
@@ -156,7 +155,7 @@ html, body {
   justify-content: center;
   align-items: flex-start;
   padding: 16px;
-  min-height: 84vh;
+  height: 84vh;
 }
 
 .sectionAbout h2 {
@@ -238,7 +237,7 @@ html, body {
   flex-direction: column;
   align-content: space-around;
   align-items: center;
-  min-height: 80vh;
+  height: 80vh;
 }
 
 #skills h1 {
