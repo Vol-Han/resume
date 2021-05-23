@@ -1,14 +1,14 @@
 import React from 'react';
-import { 
-    Container 
-} from 'react-bootstrap';
+// import { 
+//     Container 
+// } from 'react-bootstrap';
 import GitHubLogo from '../images/github.svg';
 import LinkedInLogo from '../images/linkedin.svg';
 
 export default class Footer extends React.Component {
     render() {
         return (
-            <Container className="footer">
+            <div className="footer">
                 <a 
                     href="https://github.com/vol-han" 
                     target="_blank" 
@@ -33,7 +33,7 @@ export default class Footer extends React.Component {
                         alt="LinkedIn Logo"
                     />
                 </a>
-            </Container>
+            </div>
         )
     }
 }
