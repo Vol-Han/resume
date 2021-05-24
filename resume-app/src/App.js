@@ -9,7 +9,7 @@ import particlesConfig from './config/particlesConfig';
 class App extends React.Component {
   render() {
     return (
-      <div className="app" style={{ position: 'relative' }}>
+      <div className="app" style={{ position: 'relative', overflowX: 'hidden' }}>
         <div style={{ position: 'absolute'}}>
           <Particles height="90vh" width="90vw" params={particlesConfig} />
         </div>
