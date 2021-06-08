@@ -10,7 +10,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="app" style={{ position: 'relative', overflowX: 'hidden' }}>
-        <div style={{ position: 'absolute'}}>
+        <div className="particles">
           <Particles height="100vh" width="100vw" params={particlesConfig} />
         </div>
         <Header /> 

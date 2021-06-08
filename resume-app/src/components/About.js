@@ -198,7 +198,7 @@ export default class About extends React.Component {
 
                                     <Modal.Body>
                                         <p>Site create in 2013.</p>
-                                        <p>Redesign made in 2019</p>
+                                        <p>Redesign made in 2019.</p>
                                         <p>Added template, plugins for correct work and SEO.</p>
                                         <p>Language: Ru</p>
                                     </Modal.Body>

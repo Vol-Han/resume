@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 html, body {
@@ -15,6 +15,10 @@ html, body {
   height: 100vh;
   width: 100vw;
   background-color: white;
+}
+
+.particles {
+  position: absolute;
 }
 
 /* Header */
@@ -65,35 +69,6 @@ html, body {
   transition: .5s;
 }
 
-/* Footer */
-
-.footer {
-  text-align: center;
-  margin: 0 8px 32px 8px;
-}
-
-.footer a {
-  padding: 8px;
-  margin: 8px;
-  border-radius: .25rem;
-  border: 1px solid rgba(255,255,255,.5);
-  box-shadow: 0px 4px 3px #999;
-  z-index: 5;
-  transition: .5s;
-  background-color: #fff;
-}
-
-.footer a:hover {
-  border: 1px solid rgba(255,255,255,.5);
-  box-shadow: 0px 1px 1px #333;
-  transition: .5s;
-}
-
-.logoSocialFooter {
-  width: 22px;
-  height: 22px;
-}
-
 /* Home */
 
 #home {
@@ -103,7 +78,6 @@ html, body {
   background-repeat: no-repeat;
   box-shadow: inset 0 0 30px 30px rgba(0,0,0,.4);
   animation: animateBackground .5s ease-in-out;
-  z-index: 3;
 }
 
 .sectionHomeText {
@@ -142,7 +116,7 @@ html, body {
 /* About */
 
 #about {
-  background-image: url(../src/images/bg-about.png);
+  background-image: url(../src/images/bg-about.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -236,7 +210,6 @@ html, body {
   display: flex;
   flex-direction: column;
   align-content: space-around;
-  align-items: center;
   min-height: 80vh;
 }
 
@@ -246,13 +219,13 @@ html, body {
   color: white;
   text-shadow: 0px 2px 2px #32394f;
 }
-#skills h3 {
-  text-align: center;
-  color: white;
-  text-shadow: 0px 2px 2px #32394f;
-}
 
 .divTechnologies h3 {
+  display: inline-block;
+  color: white;
+  margin: 8px;
+  padding: 8px;
+  text-shadow: 0px 2px 2px #32394f;
   background: rgba(0,0,0,0.4);
   border-radius: .25rem;
 }
@@ -266,14 +239,14 @@ html, body {
   
 .sibling-fade > * {
   background: #f3f3f3;
-  padding: .8em;
+  padding: .5em;
   flex: auto;
   margin: 0.3em;
   text-align: center;
   color: #32394f;
   font-size: 1.5em;
   text-decoration: none;
-  z-index: 2;
+  z-index: 1;
 }  
 
 /* SIBLING FADE: fade out siblings around a hovered item */
@@ -293,6 +266,34 @@ html, body {
 .sibling-fade > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; color: #17a2b8; box-shadow: 0px 2px 2px rgba(0,0,0,.5);}
 /* Fade in the currently hovered item */
 
+/* Footer */
+
+.footer {
+  position: relative;
+  margin: 0 8px 24px 8px;
+  text-align: center;
+}
+
+.footer a {
+  padding: 8px;
+  margin: 8px;
+  border-radius: .25rem;
+  border: 1px solid rgba(255,255,255,.5);
+  box-shadow: 0px 4px 3px #999;
+  transition: .5s;
+  background-color: #fff;
+}
+
+.footer a:hover {
+  border: 1px solid rgba(255,255,255,.5);
+  box-shadow: 0px 1px 1px #333;
+  transition: .5s;
+}
+
+.logoSocialFooter {
+  width: 22px;
+  height: 22px;
+}
 
 /* CSS Animations */
 
