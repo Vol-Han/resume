@@ -1,3 +1,2 @@
-Wellcome
-# resume v.1
+# resume v1
 React + Bootstrap
