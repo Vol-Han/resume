@@ -260,7 +260,7 @@ html, body {
 .sibling-fade > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
 /* Makes the fades smooth with a slight delay to prevent jumps as the mouse moves between items */
 
-.sibling-fade:hover > * { opacity: 0.7; transform: scale(0.9); cursor: pointer;}
+.sibling-fade:hover > * { opacity: 0.7; transform: scale(0.9); cursor: crosshair;}
 /* Fade out all items when the parent is hovered */
 
 .sibling-fade > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; color: #17a2b8; box-shadow: 0px 2px 2px rgba(0,0,0,.5);}
@@ -269,6 +269,7 @@ html, body {
 /* Footer */
 
 .footer {
+  display: box;
   position: relative;
   margin: 0 8px 24px 8px;
   text-align: center;
@@ -294,6 +295,24 @@ html, body {
   width: 22px;
   height: 22px;
 }
+
+.footerPowered {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  margin: 8px;
+}
+
+.footerPowered a {
+  color: #32394f;
+}
+
+.footerPowered a:hover {
+  color: #17a2b8;
+  text-decoration: none;
+  cursor: ne-resize;
+}
+
 
 /* CSS Animations */
 

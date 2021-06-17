@@ -5,6 +5,7 @@ import LinkedInLogo from '../images/linkedin.svg';
 export default class Footer extends React.Component {
     render() {
         return (
+            <>
             <div className="footer">
                 <a 
                     href="https://github.com/vol-han" 
@@ -31,6 +32,12 @@ export default class Footer extends React.Component {
                     />
                 </a>
             </div>
+            <div className="footerPowered">
+                <a href="https://github.com/Vol-Han/resume">
+                    Designed & Built by Volodymyr Hannibal
+                </a>
+            </div>
+            </>
         )
     }
 }
