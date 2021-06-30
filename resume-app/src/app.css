@@ -8,13 +8,13 @@ html, body {
   font-family: 'Inter', sans-serif !important;
   letter-spacing: 1.5px;
   scroll-behavior: smooth;
-  background-color: white;
+  background-color: var(--bg-color-first);
 }
 
 .app {
   height: 100vh;
   width: 100vw;
-  background-color: white;
+  background-color: var(--bg-color-first);
 }
 
 .particles {
@@ -24,7 +24,7 @@ html, body {
 /* Header */
 
 .navbar-light .navbar-nav a.nav-link:hover {
-  color: #17a2b8 !important;
+  color: var(--pelorous) !important;
 }
 
 .active {
@@ -32,7 +32,7 @@ html, body {
 }
 
 .navbar-light .navbar-nav a.nav-link {
-  color: #32394f !important;
+  color: var(--cloudburst) !important;
 }
 
 .navbar-collapse {
@@ -44,8 +44,8 @@ html, body {
 }
 
 .navbar-light .navbar-toggler {
-  color: #17a2b8 !important;
-  border-color: #17a2b8 !important;
+  color: var(--pelorous) !important;
+  border-color: var(--pelorous) !important;
 }
 
 .navbar-brand img {
@@ -107,7 +107,7 @@ html, body {
   animation: animateTextOnHome 3s ease-in-out;
 }
 
-@media(max-width:414px) {
+@media only screen and (max-width:414px) {
   h1.homeText {
     font-size: 11vw;  
    }
@@ -151,12 +151,12 @@ html, body {
   filter: gray;
   -webkit-filter: grayscale(.5);
   transition: 1s;
-  border: 2px solid #17a2b8;
+  border: 2px solid var(--pelorous);
 }
 
 .myPhoto:hover {
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-  border: 2px solid #17a2b8;
+  border: 2px solid var(--pelorous);
   filter: none;
   transition: 1s;
 }
@@ -217,7 +217,7 @@ html, body {
   text-align: center;
   font-weight: 600;
   color: white;
-  text-shadow: 0px 2px 2px #32394f;
+  text-shadow: 0px 2px 2px var(--cloudburst);
 }
 
 .divTechnologies h3 {
@@ -225,7 +225,7 @@ html, body {
   color: white;
   margin: 8px;
   padding: 8px;
-  text-shadow: 0px 2px 2px #32394f;
+  text-shadow: 0px 2px 2px var(--cloudburst);
   background: rgba(0,0,0,0.4);
   border-radius: .25rem;
 }
@@ -243,7 +243,7 @@ html, body {
   flex: auto;
   margin: 0.3em;
   text-align: center;
-  color: #32394f;
+  color: var(--cloudburst);
   font-size: 1.5em;
   text-decoration: none;
   z-index: 1;
@@ -254,7 +254,7 @@ html, body {
 .sibling-fade { visibility: hidden; }
 /* Prevents :hover from triggering in the gaps between items */
 
-.sibling-fade > * { visibility: visible; border: 2px solid #17a2b8;}
+.sibling-fade > * { visibility: visible; border: 2px solid var(--pelorous);}
 /* Brings the child items back in, even though the parent is `hidden` */
 
 .sibling-fade > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
@@ -263,7 +263,7 @@ html, body {
 .sibling-fade:hover > * { opacity: 0.7; transform: scale(0.9); cursor: crosshair;}
 /* Fade out all items when the parent is hovered */
 
-.sibling-fade > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; color: #17a2b8; box-shadow: 0px 2px 2px rgba(0,0,0,.5);}
+.sibling-fade > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; color: var(--pelorous); box-shadow: 0px 2px 2px rgba(0,0,0,.5);}
 /* Fade in the currently hovered item */
 
 /* Footer */
@@ -304,11 +304,12 @@ html, body {
 }
 
 .footerPowered a {
-  color: #32394f;
+  color: var(--cloudburst);
+  text-align: center;
 }
 
 .footerPowered a:hover {
-  color: #17a2b8;
+  color: var(--pelorous);
   text-decoration: none;
   cursor: ne-resize;
 }
