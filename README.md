@@ -1,2 +1,3 @@
-# resume v1
-React + Bootstrap
+### resume v1
+HTML + CSS + React + Bootstrap
+### https://vol-han.github.io/resume/
