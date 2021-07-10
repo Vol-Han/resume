@@ -72,10 +72,8 @@ html, body {
 /* Home */
 
 #home {
-  background-image: url(../src/images/bg-home.jpg);
+  background: url(../src/images/bg-home.jpg) center no-repeat;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   box-shadow: inset 0 0 30px 30px rgba(0,0,0,.4);
   animation: animateBackground .5s ease-in-out;
 }
@@ -85,19 +83,13 @@ html, body {
   justify-content: center;
   align-items: center;
   text-align: center; 
-  background: url(../src/images/earth.gif);
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(../src/images/earth.gif) center no-repeat;
   background-size: 290px auto;
   animation: animateImgEarth 3s ease-in-out;
   min-height: 84vh;
 }
 
 .homeText {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center; 
   font-size: 6vw; 
   font-weight: 600;
   color: white;
@@ -116,10 +108,8 @@ html, body {
 /* About */
 
 #about {
-  background-image: url(../src/images/bg-about.jpg);
+  background: url(../src/images/bg-about.jpg) center no-repeat;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   box-shadow: inset 0 0 30px 10px rgba(0,0,0,.6);
   animation: animateBackground .5s ease-in-out;
 }
@@ -197,10 +187,8 @@ html, body {
 /* Skills */
 
 #skills {
-  background-image: url(../src/images/bg-skills.jpg);
+  background: url(../src/images/bg-skills.jpg) center no-repeat;
   background-size: cover;
-  background-position: fixed;
-  background-repeat: no-repeat;
   box-shadow: inset 0 0 30px 10px rgba(0,0,0,.6);
   padding: 16px;
   animation: animateBackground .5s ease-in-out;
