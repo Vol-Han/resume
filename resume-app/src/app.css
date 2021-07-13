@@ -305,7 +305,7 @@ html, body {
 
 /* CSS Animations */
 
-/* Animated Background */
+/* Animate Background */
 
 @keyframes animateBackground {
   from {
@@ -383,7 +383,7 @@ html, body {
   }
 }
 
-/* Animated image Earth */
+/* Animate image Earth */
 
 @keyframes animateImgEarth {
   from {
@@ -425,7 +425,7 @@ html, body {
   }
 }
 
-/* Animated text on page Home */
+/* Animate text on page Home */
 
 @keyframes animateTextOnHome {
   from {

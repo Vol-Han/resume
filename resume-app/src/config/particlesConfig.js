@@ -206,7 +206,7 @@ const particlesConfig = {
           "value": [
             "HTML",
             "CSS",
-            "JS",
+            "JavaScript",
             "Bootstrap",
             "React",
             "Git",
