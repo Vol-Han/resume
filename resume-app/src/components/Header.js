@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 import { 
-    Navbar,
-    Nav,
-    Container,
-    Button
-  } from 'react-bootstrap';
+  Navbar,
+  Nav,
+  Container,
+  Button
+} from 'react-bootstrap';
 import Home from './Home';
 import About from './About';
 import Skills from './Skills';
@@ -25,7 +25,7 @@ export default class Header extends React.Component {
             collapseOnSelect expand="lg" 
             data-aos="fade-down"
             data-aos-duration="1000"
-          > 
+          >
             <Container>
               <Navbar.Brand href="/resume">
                 <img

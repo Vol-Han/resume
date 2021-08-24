@@ -61,13 +61,13 @@ export default class About extends React.Component {
                     <Col md="9">
                         <h3>Hi! My name is</h3> 
                         <h2>Volodymyr Hannibal.</h2>
-                        <h3>I'm looking for a job Junior Front-end Developer.</h3>
+                        <h3>I'm looking for a job Junior Front-end Developer / Web Developer with WordPress.</h3>
                         <div> 
                             <p>I started my adventure by creating websites in 2010 a hobby.</p>
                             <p>Since then, I've been working with individual clients as a freelancer-programmer
-                                    of websites and online stores on CMS WordPress and OpenCart.</p> 
+                                of websites and online stores on CMS WordPress and OpenCart.</p> 
                             <p>I create websites from scratch - from buying a domain and hosting to creating 
-                                    individual design and SEO.</p>
+                                individual design and SEO.</p>
                             <p>The Junior Front-end Developer course at Academy "InfoShare" has repeatedly expanded my knowledge, 
                                 which I can now use in practice when creating and improving projects.</p>
                         </div>    
@@ -91,7 +91,9 @@ export default class About extends React.Component {
                                     className="buttonProjectExamples" 
                                     variant="info" 
                                     onClick={this.showModalLandingPage} 
-                                    size="lg">Landing page
+                                    size="lg"
+                                >
+                                Landing page
                                 </Button>
                                     
                                 <Modal show={this.state.isModalOpenLandingPage} onHide={this.closeModalLandingPage}>
@@ -127,7 +129,9 @@ export default class About extends React.Component {
                                     className="buttonProjectExamples" 
                                     variant="info" 
                                     onClick={this.showModalApplication} 
-                                    size="lg">Application
+                                    size="lg"
+                                >
+                                Application
                                 </Button>
                                         
                                 <Modal show={this.state.isModalOpenApplication} onHide={this.closeModalApplication}>
@@ -149,7 +153,8 @@ export default class About extends React.Component {
                                                 className="logoGitHub" 
                                                 src={GitHubLogo} 
                                                 alt="GitHub Logo"
-                                            />Viewing code on GitHub
+                                            />
+                                            Viewing code on GitHub
                                         </Button>
                                     </Modal.Body>
 
@@ -161,11 +166,13 @@ export default class About extends React.Component {
                             </p>
                             <h4>Project Examples on CMS</h4>
                             <p>
-                                <Button 
-                                    className="buttonProjectExamples" 
+                              <Button 
+                                className="buttonProjectExamples" 
                                     variant="info" 
                                     onClick={this.showModalWordPress} 
-                                    size="lg">WordPress
+                                    size="lg"
+                                >
+                                WordPress
                                 </Button>
                                     
                                 <Modal show={this.state.isModalOpenWordPress} onHide={this.closeModalWordPress}>
@@ -188,7 +195,9 @@ export default class About extends React.Component {
                                     className="buttonProjectExamples" 
                                     variant="info" 
                                     onClick={this.showModalOpenCart} 
-                                    size="lg">OpenCart
+                                    size="lg"
+                                >
+                                OpenCart
                                 </Button>
                                     
                                 <Modal show={this.state.isModalOpenOpenCart} onHide={this.closeModalOpenCart}>
