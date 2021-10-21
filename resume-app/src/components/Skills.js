@@ -8,7 +8,7 @@ export default class Skills extends React.Component {
                 <section className="sectionSkills">
                     <h1>Here are a few technologies</h1>
                     <div className="divTechnologies">
-                        <h3>Permanently expand my knowledge with:</h3>
+                        <h3>I permanently expand my knowledge with:</h3>
                         <div className="sibling-fade">
                             <p>HTML</p>
                             <p>CSS</p>
