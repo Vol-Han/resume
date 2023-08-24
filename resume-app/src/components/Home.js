@@ -7,7 +7,7 @@ export default class Home extends React.Component {
             <Container id="home">
                 <div className="sectionHomeText"> 
                     <h1 className="homeText">
-                        Web development for benefiting World.
+                        Web development for the benefit of the World.
                     </h1>
                 </div>
             </Container>
